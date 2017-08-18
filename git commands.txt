@@ -1,0 +1,6 @@
+echo "# django-rest-4-angular2" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/narunbabu/django-rest-4-angular2.git
+git push -u origin master
