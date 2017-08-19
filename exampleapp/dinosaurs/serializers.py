@@ -5,4 +5,4 @@ from rest_framework import serializers
 class DinosaurSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Dinosaur
-        fields = ('url', 'species','teeth')
+        fields = ('url', 'species','teeth','id')
